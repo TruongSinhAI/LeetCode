@@ -1,8 +1,8 @@
 
 
 int tribonacci(int n){
-    long a = 0, b = 1, c=1;
-    long tmp;
+    int a = 0, b = 1, c=1;
+    int tmp;
     for(int i =3; i<=n; i++){
         tmp = a + b +c;
         a = b;
